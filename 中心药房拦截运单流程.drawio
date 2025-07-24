@@ -1,9 +1,67 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6">
   <diagram name="第 1 页" id="xf5GseQ6-O6LOucpBPzR">
-    <mxGraphModel>
+    <mxGraphModel dx="1418" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RbbyM5Bsv2Vf05uLZKhq-1" value="诊疗平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="RbbyM5Bsv2Vf05uLZKhq-2" value="中心药房" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="RbbyM5Bsv2Vf05uLZKhq-3" value="&lt;span style=&quot;color: rgb(46, 64, 94); font-family: &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Luxi Sans&amp;quot;, &amp;quot;DejaVu Sans&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Android Emoji&amp;quot;, EmojiSymbols; font-variant-ligatures: no-common-ligatures; text-align: left; white-space-collapse: preserve; background-color: rgb(250, 251, 252);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;处方同步&lt;/font&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0722" y="20" width="60" relative="1" as="geometry">
+            <mxPoint x="129.5" y="160" as="sourcePoint" />
+            <mxPoint x="669.5" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="160" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RbbyM5Bsv2Vf05uLZKhq-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;【审方】：发药单状态同步，状态status为6，isPending为0&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1" target="RbbyM5Bsv2Vf05uLZKhq-1">
+          <mxGeometry x="-0.0009" y="-20" width="60" relative="1" as="geometry">
+            <mxPoint x="670" y="280" as="sourcePoint" />
+            <mxPoint x="810" y="280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RbbyM5Bsv2Vf05uLZKhq-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;【开始制药】：发药单状态同步&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;，状态status为7，isPending为0&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="-20" width="60" relative="1" as="geometry">
+            <mxPoint x="670" y="360" as="sourcePoint" />
+            <mxPoint x="130" y="360" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RbbyM5Bsv2Vf05uLZKhq-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;【制药完成】：发药单状态同步&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;，状态status为8，isPending为0&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="-20" width="60" relative="1" as="geometry">
+            <mxPoint x="670" y="440" as="sourcePoint" />
+            <mxPoint x="130" y="440" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RbbyM5Bsv2Vf05uLZKhq-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;【发药】：1、发药单状态同步&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;，状态status为1，isPending为0；&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;2、&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-size: 14px;&quot;&gt;运单同步；&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="-20" width="60" relative="1" as="geometry">
+            <mxPoint x="670" y="520" as="sourcePoint" />
+            <mxPoint x="130" y="520" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RbbyM5Bsv2Vf05uLZKhq-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;【拦截/取消运单】：发药单状态同步&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;，状态status为1，isPending为1&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="-20" width="60" relative="1" as="geometry">
+            <mxPoint x="670" y="600" as="sourcePoint" />
+            <mxPoint x="130" y="600" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RbbyM5Bsv2Vf05uLZKhq-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;【退药确认（取消运单）】：发药单状态同步&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;，状态status为8，isPending为0&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="-20" width="60" relative="1" as="geometry">
+            <mxPoint x="670" y="680" as="sourcePoint" />
+            <mxPoint x="130" y="680" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
