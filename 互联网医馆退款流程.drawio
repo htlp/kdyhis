@@ -4,19 +4,19 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Hv7AKpmdAY5mRspnB5LM-1" value="中心药房" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="Hv7AKpmdAY5mRspnB5LM-1" value="中心药房" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="840" y="240" width="100" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="Hv7AKpmdAY5mRspnB5LM-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="Hv7AKpmdAY5mRspnB5LM-1">
+        <mxCell id="Hv7AKpmdAY5mRspnB5LM-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="Hv7AKpmdAY5mRspnB5LM-1" vertex="1">
           <mxGeometry x="45" y="40" width="10" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="Hv7AKpmdAY5mRspnB5LM-3" value="互联网医馆" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="Hv7AKpmdAY5mRspnB5LM-3" value="互联网医馆" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="80" y="240" width="100" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="Hv7AKpmdAY5mRspnB5LM-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="Hv7AKpmdAY5mRspnB5LM-3">
+        <mxCell id="Hv7AKpmdAY5mRspnB5LM-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="Hv7AKpmdAY5mRspnB5LM-3" vertex="1">
           <mxGeometry x="45" y="40" width="10" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="Hv7AKpmdAY5mRspnB5LM-5" value="【申请退款退货、申请退款不退货】：生成退货单时，1、退换货状态同步，IsAdd:true，ReturnExchangeType：1退货 2换货；&lt;div&gt;2、退货单同步；&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+        <mxCell id="Hv7AKpmdAY5mRspnB5LM-5" value="【申请退款退货、申请退款不退货】：生成退货单时，1、退换货状态同步，IsAdd:true，ReturnExchangeType：1退货 2换货；&lt;div&gt;2、退货单同步；&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
           <mxGeometry x="-0.0007" relative="1" as="geometry">
             <mxPoint x="135" y="360" as="sourcePoint" />
             <mxPoint x="889.5" y="360" as="targetPoint" />
@@ -26,10 +26,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hv7AKpmdAY5mRspnB5LM-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;互联网医馆退款流程&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="Hv7AKpmdAY5mRspnB5LM-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;互联网医馆退款流程&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="300" y="170" width="330" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="Hv7AKpmdAY5mRspnB5LM-7" value="【退款审核】：1、退换货状态同步，IsAdd:false，ReturnExchangeType：1退货 2换货" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+        <mxCell id="Hv7AKpmdAY5mRspnB5LM-7" value="【退款审核】：1、退换货状态同步，IsAdd:false，ReturnExchangeType：1退货 2换货" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
           <mxGeometry x="0.0013" relative="1" as="geometry">
             <mxPoint x="140" y="440" as="sourcePoint" />
             <mxPoint x="895" y="440" as="targetPoint" />
