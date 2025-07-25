@@ -1,22 +1,22 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6">
   <diagram name="第 1 页" id="3IlR71xCNVm7pOj7GddM">
-    <mxGraphModel dx="1418" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="778" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9WsRVZUHh8-NU1pqQrJq-1" value="中心药房" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="9WsRVZUHh8-NU1pqQrJq-1" value="中心药房" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="790" y="110" width="100" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="9WsRVZUHh8-NU1pqQrJq-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="9WsRVZUHh8-NU1pqQrJq-1">
+        <mxCell id="9WsRVZUHh8-NU1pqQrJq-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="9WsRVZUHh8-NU1pqQrJq-1" vertex="1">
           <mxGeometry x="45" y="40" width="10" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="9WsRVZUHh8-NU1pqQrJq-3" value="互联网医馆" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="9WsRVZUHh8-NU1pqQrJq-3" value="互联网医馆" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="30" y="110" width="100" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="9WsRVZUHh8-NU1pqQrJq-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="9WsRVZUHh8-NU1pqQrJq-3">
+        <mxCell id="9WsRVZUHh8-NU1pqQrJq-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="9WsRVZUHh8-NU1pqQrJq-3" vertex="1">
           <mxGeometry x="45" y="40" width="10" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="9WsRVZUHh8-NU1pqQrJq-5" value="【处方支付--创建订单并查看二维码】：&lt;div&gt;1、更新处方和明细的【药品折扣后费用】，创建子收费单；&lt;/div&gt;&lt;div&gt;2、创建订单，&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;支付单，和订单支付单绑定；&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;支付二维码；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;3、创建包裹单，发送【&lt;b&gt;包裹同步&lt;/b&gt;】消息&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;；&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+        <mxCell id="9WsRVZUHh8-NU1pqQrJq-5" value="【处方支付--创建订单并查看二维码】：&lt;div&gt;1、更新处方和明细的【药品折扣后费用】，创建子收费单；&lt;/div&gt;&lt;div&gt;2、创建订单，&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;支付单，和订单支付单绑定；&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;支付二维码；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;3、创建包裹单，发送【&lt;b&gt;包裹同步&lt;/b&gt;】消息&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;；&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
           <mxGeometry x="-0.0007" relative="1" as="geometry">
             <mxPoint x="85" y="230" as="sourcePoint" />
             <mxPoint x="839.5" y="230" as="targetPoint" />
@@ -26,10 +26,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9WsRVZUHh8-NU1pqQrJq-6" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;互联网医馆处方支付流程&lt;/b&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="9WsRVZUHh8-NU1pqQrJq-6" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;互联网医馆处方支付流程&lt;/b&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="250" y="40" width="330" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="9WsRVZUHh8-NU1pqQrJq-8" value="【支付回调，有换货补钱】：&lt;div&gt;1、通过在线支付单号（PAY0000001）查询支付单和订单，支付单更新【&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;线上退款截止时间&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;】；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;2、通过订单的biz_ids查询子收费单&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;并更新&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;3、通过charge_id查询处方并更新，&lt;/div&gt;&lt;div&gt;4批量更新药品明细实际用量，&lt;/div&gt;&lt;div&gt;5批量更新药品明细实收金额，&lt;/div&gt;&lt;div&gt;6&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;更新 处方药品明细的 成本价，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;7如果是颗粒处方 同步到颗粒剂；&lt;div&gt;8、修改挂号单状态；&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;9、生成发药单；&lt;/div&gt;&lt;div&gt;10、发送【&lt;b&gt;处方同步&lt;/b&gt;】消息，发送【旧处方--&lt;b&gt;退换货状态同步&lt;/b&gt;】消息；&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+        <mxCell id="9WsRVZUHh8-NU1pqQrJq-8" value="【支付回调，有换货补钱】：&lt;div&gt;1、通过在线支付单号（PAY0000001）查询支付单和订单，支付单更新【&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;线上退款截止时间&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;】；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;2、通过订单的biz_ids查询子收费单&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;并更新&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;3、通过charge_id查询处方并更新，&lt;/div&gt;&lt;div&gt;4批量更新药品明细实际用量，&lt;/div&gt;&lt;div&gt;5批量更新药品明细实收金额，&lt;/div&gt;&lt;div&gt;6&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;更新 处方药品明细的 成本价，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;7如果是颗粒处方 同步到颗粒剂；&lt;div&gt;8、修改挂号单状态；&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;9、生成发药单；&lt;/div&gt;&lt;div&gt;10、发送【&lt;b&gt;处方同步&lt;/b&gt;】消息，发送【旧处方--&lt;b&gt;退换货状态同步&lt;/b&gt;】消息；&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
           <mxGeometry x="0.0013" relative="1" as="geometry">
             <mxPoint x="72" y="560" as="sourcePoint" />
             <mxPoint x="827" y="560" as="targetPoint" />
@@ -39,7 +39,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9WsRVZUHh8-NU1pqQrJq-9" value="【处方支付--线上收费确认】：&lt;div&gt;1、生成线上支付单，二维码，小程序码&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;；&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+        <mxCell id="9WsRVZUHh8-NU1pqQrJq-9" value="【处方支付--线上收费确认】：&lt;div&gt;1、生成线上支付单，二维码，小程序码&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;；&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
           <mxGeometry x="-0.0007" relative="1" as="geometry">
             <mxPoint x="80" y="380" as="sourcePoint" />
             <mxPoint x="834.5" y="380" as="targetPoint" />
